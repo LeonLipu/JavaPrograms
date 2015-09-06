@@ -1,6 +1,8 @@
 package collection;
 
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class Setapp {
@@ -15,6 +17,18 @@ public class Setapp {
 		se.add("hell4");
 		se.add("hello");
 		se.add(null);
+		
+		 Iterator it = se.iterator();
+		 
+		while(it.hasNext())
+		{
+			
+			System.out.println(it.next());
+		}
+	
+		Collections.addAll(se, "something");
+		
+		
 		System.out.println(se);
 		
 	}

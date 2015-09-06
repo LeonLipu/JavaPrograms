@@ -17,6 +17,8 @@ public class arraylist {
 		li.add("hello");
 		li.add("hello");
 		li.add("hello");
+		li.add("hello");
+		li.add("hello");
 		li.add(null);
 		li.add("hello");
 		System.out.println(li);
