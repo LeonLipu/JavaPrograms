@@ -13,5 +13,6 @@ public class sampleclass {
 		System.out.println("hello brahmananda kar");		
 		sampleclass object= new sampleclass();	
 		object.getdata();
+		
 	}
 }
