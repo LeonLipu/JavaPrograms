@@ -8,6 +8,14 @@ public class sampleclass {
 	}
 
 	
+	public String echo (){
+		
+		
+		System.out.println("Malleshwar");
+		
+		return null;
+	}
+	
 	
 	public static void main(String[] args) {
 		System.out.println("hello brahmananda kar");		
