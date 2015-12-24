@@ -1,0 +1,37 @@
+1.why string is immutable 
+string demo=hello 
+string is immutable (can not modified )
+demo=king 
+still hello in (constant string pool) just lost the reference 
+-it thread safe 
+2.string buffer : is mutable(heap) and it is  thread safe
+-method of string buffer is synchronized and thread safe 
+-string buffer can be converted by string by toString() method
+-slow due to safe property is implemented .
+3.string builder = is mutable (heap ) is not thread safe 
+-fast
+
+4.jvm :
+classloder =it subsystem in jvm to load class file 
+storage : class:store per-class runtime constant pool ,filed and another data.
+heap : object is created here and it is runtime data area.
+stack :hold local variable and partial result and plays part in method invocation and return result.
+programregister :it hold address of next instruction to be executed .
+native method stack : all native method used for application .
+
+5: non-access modifier : static ,abstract ,final and synchronized 
+static :class variable 
+final : variable :can not be reassigned .static and final both used to make constant .   
+      :method:can not overrided 
+      :class: can not be parent class :no one can inherit property from this class.
+     
+abstract : class: class can not create instance .
+           abstract method : can be declared without implementation .
+synchronized : method : only one thread can access at a time .
+ transient variable: jvm skip when variable hold by serialized object             
+      
+
+ 
+
+  
+  
