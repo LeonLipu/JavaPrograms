@@ -1,0 +1,40 @@
+collection framework in 2 minute :
+collection is interface 
+collections is class which contains algorithem .
+list,queue and set interfaces are extended by collection interface.
+
+
+hashset+set=linkedhashset
+hasmap+map=linkedhasmap
+deque+list=linkedlist
+set+abstract=hashset
+list+abstract=Arraylist
+map+abstract=hashmap
+Abstract++=tree
+map+set=hashtable
+set:not allow duplicate 
+list:allow duplicate
+map:key value pair
+tree=sorted+no null
+linkedhash =insertion order 
+hash=no order
+arraylist=good for retrieve
+linkedlist=good for manipulation
+iterator =only forward direction
+list-iterator=both direction
+
+1.what is diffrence between iterator and enumerator 
+enumerator is only for read only mode and iterator is for adding and removing both
+
+2.what is iterator ?
+it is interface and used iterator over collection 
+
+3.vector and arrylist 
+vector is synchronised(thread safe and slow and size increase by 100%) and arrylist is not (incresed by 50%)
+
+
+
+
+
+
+
